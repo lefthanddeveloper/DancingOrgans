@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetFrequency: 3
   indivisualMultiplier: 1
-  scaleRange: {x: 0.8, y: 1.5}
+  scaleRange: {x: 0.5, y: 1.2}
 --- !u!1 &959960577
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,7 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetFrequency: 4
   indivisualMultiplier: 1
-  scaleRange: {x: 0.8, y: 1.5}
+  scaleRange: {x: 0.5, y: 1.2}
 --- !u!1 &1547272139
 GameObject:
   m_ObjectHideFlags: 0
@@ -381,7 +381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetFrequency: 2
   indivisualMultiplier: 1
-  scaleRange: {x: 0.8, y: 1.5}
+  scaleRange: {x: 0.5, y: 1.2}
 --- !u!1 &1803748406
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,9 +427,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4584cd5820b85f24d9a3bc4b2a3cff2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetFrequency: 1
+  targetFrequency: 5
   indivisualMultiplier: 1
-  scaleRange: {x: 0.8, y: 1.5}
+  scaleRange: {x: 0.5, y: 1.2}
 --- !u!1 &1920985862
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,7 +553,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035117694}
   m_LocalRotation: {x: 0.08715578, y: 0, z: 0, w: 0.9961947}
-  m_LocalPosition: {x: 0, y: 1.5, z: -2}
+  m_LocalPosition: {x: 0, y: 1.464, z: -1.868}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -640,7 +640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetFrequency: 7
   indivisualMultiplier: 1
-  scaleRange: {x: 0.8, y: 1.5}
+  scaleRange: {x: 0.5, y: 1.2}
 --- !u!1 &2085874090
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,9 +686,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6204c1a9eead3c043946fbf8fbb1f4ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetFrequency: 5
-  indivisualMultiplier: 1
-  scaleRange: {x: 0.8, y: 1.5}
+  targetFrequency: 6
+  indivisualMultiplier: 0.5
+  scaleRange: {x: 0.5, y: 1}
 --- !u!4 &167962927672701193
 Transform:
   m_ObjectHideFlags: 0
@@ -806,7 +806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4df22a3e2d002964ca7dd1989dcffce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 0
+  rotateSpeed: 40
 --- !u!23 &985631581526807022
 MeshRenderer:
   m_ObjectHideFlags: 0
