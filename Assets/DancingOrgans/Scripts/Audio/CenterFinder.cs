@@ -13,6 +13,7 @@ public class CenterFinder : MonoBehaviour
 	}
 }
 
+#if UNITY_EDITOR
 [CustomEditor(typeof(CenterFinder))]
 public class CenterFinderEditor : Editor
 {
@@ -28,3 +29,4 @@ public class CenterFinderEditor : Editor
 		}
 	}
 }
+#endif
