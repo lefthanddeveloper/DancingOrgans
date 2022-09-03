@@ -35,12 +35,12 @@ namespace DancingOrgans
 			}
 			else
 			{
-				buffer = Mathf.SmoothDamp(buffer, curFreq, ref smoothVel, Time.deltaTime * 10f);
+				buffer = Mathf.SmoothDamp(buffer, curFreq, ref smoothVel, Time.deltaTime * 5f);
 			}
 
 			//buffer = Mathf.Clamp(0f, scaleRange.x, scaleRange.y);
 
-			float scale = scaleRange.x + buffer;
+			float scale = scaleRange.x + buffer * (scaleRange.y - scaleRange.x);
 			scale = Mathf.Clamp(scale, scaleRange.x, scaleRange.y);
 			this.transform.localScale = Vector3.one * scale;
 		}
